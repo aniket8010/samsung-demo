@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+   
+    height: 72px;
+    display: flex;
+    justify-content: center;
+}
+header .left{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+header .left .menu a , header .right a{
+   padding: 5px 5px;
+   text-decoration: none;
+   color: black;
+   font-family: inter;
+   font-size: 14px;
+   font-weight: 400;
+
+}
+header .right{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 25px;
+}
+
+header .right .icons i{
+    padding: 3px 3px;
+}
+main .banner{
+height: 540px;
+width: 1366px;
+margin-left: 5rem;
+}
+.carousel-control-next i{
+    font-size: 40px;
+}
+.carousel-control-prev i{
+    font-size: 40px;
+}
+.highlights{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 80px;
+    height: 100px;
+}
+.menu-2{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    height: 30px;
+    font-weight: 500;
+}
+.menu-2 a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.lefttv img{
+    height: 684px;
+    width: 684px;
+border-radius: 20px;
+margin-left: 70px;
+margin-top: 20px;
+}
